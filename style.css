@@ -1,0 +1,69 @@
+/* Definindo fontes globais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F7F7F7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilo para o título principal */
+h1 {
+    font-size: 3em;
+    color: #FF6347; /* Tom de laranja avermelhado */
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+/* Estilo para o subtítulo */
+h2 {
+    font-size: 1.8em;
+    color: #4CAF50; /* Verde claro */
+    margin-bottom: 20px;
+}
+
+/* Estilo dos parágrafos */
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 10px;
+    background-color: #FFF;
+    border: 2px solid #FFEB3B; /* Amarelo brilhante */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Adicionando um pouco de animação e efeito de hover para os parágrafos */
+p:hover {
+    background-color: #FFEB3B;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* Estilo para o rodapé (a frase #FALEITÔLEVE) */
+p:last-child {
+    font-size: 1.5em;
+    color: #FF1493; /* Cor rosa forte */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+/* Estilo da página quando ela for carregada */
+body {
+    background-color: #FFFAF0; /* Fundo bem claro e suave */
+}
+
+/* Adicionando um pouco de cor nos links, caso apareçam */
+a {
+    color: #1E90FF; /* Azul brilhante */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
